@@ -31,11 +31,6 @@ def isAnagram(s, t):
     
     return True
 
-
-
-
-
-
 if __name__ == "__main__":
     s = "anagram"
     t = "nagaram"

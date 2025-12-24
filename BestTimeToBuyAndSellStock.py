@@ -1,5 +1,8 @@
 # Leetcode Question #121
 
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+
 def maxProfit(prices):
     """
     :type prices: List[int]
@@ -20,7 +23,6 @@ def maxProfit(prices):
         Right += 1
 
     return maxProfitVal
-
 
 if __name__ == "__main__":
     tests = [

@@ -1,5 +1,8 @@
 # LeetCode Question #1
 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+
 def twoSum(nums, target):
     """
     :type nums: List[int]

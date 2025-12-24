@@ -1,5 +1,8 @@
 # Leetcode Question #242
 
+# Time Complexity O(nlogn)
+# Space Complexity O(1)
+
 def isAnagram(s, t):
     """
     :type s: str
@@ -9,8 +12,6 @@ def isAnagram(s, t):
     
     # If the sorted versions of s & t are equal, they are anagrams
     return sorted(s) == sorted(t)
-
-
 
 if __name__ == "__main__":
     s = "anagram"
